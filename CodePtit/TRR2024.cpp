@@ -1,5 +1,5 @@
-//https://code.ptit.edu.vn/student/question/TRR2021
-//2.21 Đỉnh trụ
+//https://code.ptit.edu.vn/student/question/TRR2024
+//2.24 Đỉnh trụ 
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -8,13 +8,19 @@ using namespace std;
 int n, A[MAX][MAX], chuaxet[MAX];
 vector<int> res;
 
-void DFS(int u){
+void BFS(int u){
+    queue<int> q;
+    q.push(u);
     chuaxet[u] = 1;
-    for(int v = 1; v <= n; v++){
-        if(!chuaxet[v] && A[u][v]){
-            chuaxet[v] = 1;
-            DFS(v);
-        }
+    while (!q.empty()){
+        int v = q.front();
+        q.pop();
+        for(int i = 1; i <= n; i++)
+            if(A[v][i] && !chuaxet[i]){
+                chuaxet[i] = 1;
+                q.push(v);
+                q.push(i);
+            }
     }
 }
 
@@ -23,7 +29,7 @@ int tplt(){
     for(int i = 1; i <= n; i++){
         if(!chuaxet[i]){
             cnt ++;
-            DFS(i);
+            BFS(i);
         }
     }
     return cnt;
