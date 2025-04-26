@@ -3,7 +3,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-#define MAX 100
+#define MAX 1005
 
 int n, A[MAX][MAX], chuaxet[MAX];
 vector<pair<int, int>> dscanh, res;

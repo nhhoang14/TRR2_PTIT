@@ -3,7 +3,7 @@
 
 #include<bits/stdc++.h>
 using namespace std;
-#define MAX 100
+#define MAX 1005
 
 int n, A[MAX][MAX], chuaxet[MAX];
 vector<int> res;
@@ -36,6 +36,9 @@ int tplt(){
 }
 
 int main(){
+    ios_base::sync_with_stdio(0); 
+    cin.tie(NULL);                
+    cout.tie(NULL);
     freopen("TK.INP", "r", stdin);
     freopen("TK.OUT", "w", stdout);
     cin >> n;
@@ -50,6 +53,7 @@ int main(){
             res.push_back(i);
     }
     cout << res.size() << endl;
+    sort(res.begin(), res.end());
     for(auto x : res) cout << x << " ";
     return 0;
 }
