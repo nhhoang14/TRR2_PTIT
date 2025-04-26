@@ -1,3 +1,5 @@
+//3.7 - Duyệt các đỉnh trụ
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 100

@@ -1,3 +1,5 @@
+//5.3 - Xây dựng cây bao trùm bé nhất theo Prim
+
 #include <bits/stdc++.h>
 using namespace std;
 #define MAX 100

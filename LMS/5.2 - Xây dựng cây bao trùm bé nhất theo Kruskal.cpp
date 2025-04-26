@@ -1,3 +1,5 @@
+//5.2 - Xây dựng cây bao trùm bé nhất theo Kruskal
+
 #include <bits/stdc++.h>
 #define MAX 100
 using namespace std;

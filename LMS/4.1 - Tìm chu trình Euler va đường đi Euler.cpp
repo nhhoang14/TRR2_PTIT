@@ -1,3 +1,5 @@
+//4.1 - Tìm chu trình Euler va đường đi Euler
+
 #include <iostream>
 #include <stack> 
 #define MAX 100

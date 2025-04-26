@@ -1,3 +1,5 @@
+//3.5 - Tìm đường đi từ đỉnh s đến đỉnh t theo DFS và BFS
+
 #include<bits/stdc++.h>
 using namespace std;
 int n, s, t;

@@ -1,3 +1,5 @@
+//3.6 - Xác định tính liên thông mạnh của đồ thị có hướng
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 100

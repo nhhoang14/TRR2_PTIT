@@ -1,3 +1,5 @@
+//3.4 - Đếm số thành phần liên thông
+
 #include<bits/stdc++.h>
 using namespace std;
 int n,ans;

@@ -1,3 +1,5 @@
+//4.2 - Tìm chu trình Hamilton
+
 #include <iostream>
 #define MAX 100
 using namespace std;

@@ -1,3 +1,5 @@
+//3.8 - Duyệt các cạnh cầu
+
 #include<bits/stdc++.h>
 using namespace std;
 #define MAX 100
