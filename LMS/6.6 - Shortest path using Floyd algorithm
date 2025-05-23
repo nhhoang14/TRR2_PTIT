@@ -1,4 +1,4 @@
-//Shortest path using Floyd algorithm
+//6.6 - Shortest path using Floyd algorithm
 
 #include <bits/stdc++.h>
 using namespace std;
