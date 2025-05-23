@@ -1,4 +1,4 @@
-//Shortest path using Dijkstra algorithm
+//6.2 - Shortest path using Dijkstra algorithm
 
 #include <bits/stdc++.h>
 using namespace std;
