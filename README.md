@@ -1,1 +1,1 @@
-# Bài tập TRR2_CodePtit
+# Bài tập TRR2_N.T.Thắng
